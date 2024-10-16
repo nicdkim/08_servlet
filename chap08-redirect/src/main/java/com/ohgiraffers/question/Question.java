@@ -17,7 +17,7 @@ public class Question extends HttpServlet {
         if (title != null && title.length() >= 5 && content != null && content.length() >= 10) {
             req.setAttribute("title", title);
             req.setAttribute("content", content);
-            req.getRequestDispatcher("/postSuccess").forward(req, resp); // 성공 시 새 페이지로 포워딩
+            req.getRequestDispatcher("/postSuccess").forward(req, resp);
         } else {
             resp.sendRedirect("index.jsp");
         }

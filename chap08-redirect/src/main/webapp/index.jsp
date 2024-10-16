@@ -15,15 +15,15 @@
             } else if (contentInput.length < 10) {
                 errorMessage.textContent = "내용은 10자 이상이어야 합니다.";
             } else {
-                errorMessage.textContent = ""; // 유효성 검사 통과 시 에러 메시지 제거
+                errorMessage.textContent = "";
             }
         }
     </script>
 </head>
 <body>
-    <h3 id="error-message"></h3>
-
     <h1>게시글 작성</h1>
+
+    <h2 id="error-message" style="color: red"></h2>
 
     <form action="submitPost" method="post">
         제목: <input type="text" id="title" name="title"
