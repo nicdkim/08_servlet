@@ -6,7 +6,6 @@
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html>
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -23,6 +22,4 @@
     </form>
     <a href="login.jsp">로그인 화면</a>
 </body>
-</html>
-
 </html>
