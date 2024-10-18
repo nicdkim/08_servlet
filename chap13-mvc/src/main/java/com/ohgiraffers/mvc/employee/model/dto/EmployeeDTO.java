@@ -16,14 +16,14 @@ public class EmployeeDTO {
     private double bonus;
     private String managerId;
     private Date hireDate;
-    private Date endDate;
+    private Date entDate;
     private String entYn;
 
     public EmployeeDTO() {
 
     }
 
-    public EmployeeDTO(int empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, double bonus, String managerId, Date hireDate, Date endDate, String entYn) {
+    public EmployeeDTO(int empId, String empName, String empNo, String email, String phone, String deptCode, String jobCode, String salLevel, int salary, double bonus, String managerId, Date hireDate, Date entDate, String entYn) {
         this.empId = empId;
         this.empName = empName;
         this.empNo = empNo;
@@ -36,7 +36,7 @@ public class EmployeeDTO {
         this.bonus = bonus;
         this.managerId = managerId;
         this.hireDate = hireDate;
-        this.endDate = endDate;
+        this.entDate = entDate;
         this.entYn = entYn;
     }
 
@@ -136,12 +136,12 @@ public class EmployeeDTO {
         this.hireDate = hireDate;
     }
 
-    public Date getEndDate() {
-        return endDate;
+    public Date getEntDate() {
+        return entDate;
     }
 
-    public void setEndDate(Date endDate) {
-        this.endDate = endDate;
+    public void setEntDate(Date endDate) {
+        this.entDate = endDate;
     }
 
     public String getEntYn() {
@@ -167,7 +167,7 @@ public class EmployeeDTO {
                 ", bonus=" + bonus +
                 ", managerId='" + managerId + '\'' +
                 ", hireDate=" + hireDate +
-                ", endDate=" + endDate +
+                ", endDate=" + entDate +
                 ", entYn='" + entYn + '\'' +
                 '}';
     }

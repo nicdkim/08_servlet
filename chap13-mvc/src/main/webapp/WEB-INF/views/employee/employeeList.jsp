@@ -45,7 +45,7 @@
                 <td>${emp.bonus}</td>
                 <td>${emp.managerId}</td>
                 <td>${emp.hireDate}</td>
-                <td>${emp.endDate}</td>
+                <td>${emp.entDate}</td>
                 <td>${emp.entYn}</td>
             </tr>
         </c:forEach>
